@@ -1,0 +1,33 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  line-height: 1.5;
+}
+
+header .navbar a {
+  display: block;
+  font-size: 2rem;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+header .navbar a:hover {
+  letter-spacing: 0.2rem;
+  color: var(--main-color);
+}
+
+header .follow a {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 0.7rem;
+}
+
+header .follow a:hover {
+  color: var(--main-color);
+}
